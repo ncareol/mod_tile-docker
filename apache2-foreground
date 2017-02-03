@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+# based on https://github.com/docker-library/httpd/blob/e885c0d63078153dc89fa0212314e590fec7fc93/2.4/httpd-foreground
+
+# Apache gets grumpy about PID files pre-existing
+rm -f /var/run/apache2.pid
+
+exec apache2 -DFOREGROUND
