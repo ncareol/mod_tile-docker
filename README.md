@@ -1,6 +1,6 @@
-# ncareol/mod_tile-docker
+# [ncareol/mod_tile-docker](https://hub.docker.com/r/ncareol/mod_tile/)
 
-**Docker** image for running Apache w/ mod_tile, for serving static, pregenerated OSM tiles
+**Docker** image for running **Apache** w/ `mod_tile`, for serving static, pregenerated [**OpenStreetMap**](http://www.openstreetmap.org/about) tiles.
 
 ## Usage
 
